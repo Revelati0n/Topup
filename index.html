@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+	<!-- แก้ไข Topup เพื่อเปลี่ยนชื่อเว็บไซต์  Title  -->	
+	<title>Topup</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+	<link rel="stylesheet" href="css/boostrap.css" />
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 center-screen">
+			<div class="jumbotron">
+				<div class="container">
+					<h1 class="text-center animated bounceIn">WarZ XXXXXXXX</h1>
+					<hr class="animated fadeIn">
+					<div class="form-group animated fadeIn">
+						<label for="tmn_password">Truemoney</label>
+						<input name="tmn_password" type="text" id="tmn_password" maxlength="14" class="form-control" placeholder="Truemoney">
+					</div>
+					<div class="form-group animated fadeIn">
+						<label for="ref1">Email</label>
+						<input type="email" class="form-control" name="ref1" id="ref1" placeholder="Email">
+					</div>
+					<div class="form-group animated fadeIn">
+						<label for="ref2">Facebook</label>
+						<input type="text" class="form-control" name="ref2" id="ref2" placeholder="Facebook">
+					</div>				  
+						<input type="hidden" name="ref3" id="ref3" placeholder="ref3">	
+					<hr class="animated fadeIn">	
+					<button type="button" class="btn btn-outline btn-block btn-main btn-lg animated bounceIn" onclick="submit_tmnc()">Topup !</button>
+				</div>
+				<div class="bottom text-center animated fadeIn">
+					<!-- กรุณาอย่านำเครดิตของผมออกนะครับ ขอบคุณครับ  -->
+					Designed By <a href="https://www.facebook.com/mooos.os" target="_blank">Somprasong Intorruk </a>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- แก้ไขตรง UID เพื่อเปลี่ยนเป็น UID Tmtopup ของท่านเอง  -->
+<script type="text/javascript" src='https://www.tmtopup.com/topup/3rdTopup.php?uid=UID'></script>
+</body>
+</html>	
